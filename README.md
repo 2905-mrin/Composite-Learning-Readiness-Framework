@@ -1,8 +1,8 @@
-# CoDMAV — Composite Learning Readiness Framework
+# CLRF — Composite Learning Readiness Framework
 
 ### A Multi-Domain Composite Learning Readiness Framework using EEG, Academic Analytics and Digital Wellness for Educational Decision Support
 
-CoDMAV is a multi-domain framework for assessing learner readiness by integrating three structurally different domains:
+CLRF is a multi-domain framework for assessing learner readiness by integrating three structurally different domains:
 
 - **EEG / Cognitive Domain**
 - **Lifestyle / Digital Wellness Domain**
@@ -16,7 +16,7 @@ Instead of directly combining heterogeneous raw datasets, CoDMAV processes each 
 
 Traditional educational assessment primarily relies on grades, attendance, assignments and learning-platform activity. These indicators do not fully capture cognitive engagement or behavioural wellness.
 
-CoDMAV addresses this limitation through three independent domain pipelines:
+CLRF addresses this limitation through three independent domain pipelines:
 
 ```text
 EEG / Cognitive Domain
@@ -60,7 +60,7 @@ The project documentation defines the three domain indices as:
 
 ## Architecture
 
-![CoDMAV Architecture](architecture/codmav_architecture.png)
+![CLRF Architecture](architecture/codmav_architecture.png)
 
 The architecture separates the three domains before fusion. This is important because the source datasets come from different populations and do not provide valid subject-level pairing across domains.
 
@@ -278,7 +278,7 @@ and their corresponding categories.
 ## Repository Structure
 
 ```text
-CoDMAV/
+CLRF/
 │
 ├── README.md
 ├── requirements.txt
@@ -325,8 +325,8 @@ CoDMAV/
 ## Installation
 
 ```bash
-git clone https://github.com/<YOUR-USERNAME>/CoDMAV.git
-cd CoDMAV
+git clone https://github.com/<YOUR-USERNAME>/Composite-Learning-Readiness-Framework.git
+cd Composite-Learning-Readiness-Framework.
 
 python -m venv .venv
 ```
@@ -371,7 +371,7 @@ The supplied `.pkl` files contain fitted preprocessing/PCA objects.
 
 ## Data Sources
 
-CoDMAV uses three independent data sources:
+CLRF uses three independent data sources:
 
 ### EEG
 Used for the cognitive/neurophysiological domain.
@@ -398,7 +398,7 @@ The complete original fusion/robustness notebook was not among the uploaded impl
 
 ## Project Outcome
 
-CoDMAV provides a unified framework for combining cognitive, behavioural and academic readiness signals while preserving the independent structure of each domain.
+CLRF provides a unified framework for combining cognitive, behavioural and academic readiness signals while preserving the independent structure of each domain.
 
 The framework supports:
 
