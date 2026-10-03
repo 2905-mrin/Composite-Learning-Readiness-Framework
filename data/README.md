@@ -1,6 +1,6 @@
 # Data
 
-CoDMAV uses three independent data sources.
+CLRF uses three independent data sources.
 
 ## EEG / Cognitive Domain
 
