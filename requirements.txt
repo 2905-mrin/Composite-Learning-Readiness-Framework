@@ -1,0 +1,10 @@
+numpy
+pandas
+scipy
+scikit-learn==1.6.1
+matplotlib
+seaborn
+statsmodels
+joblib
+jupyter
+openpyxl
